@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* NAVBAR */
+#navbar{
+    background-color: #A7E6FF;
+    color: white;
+}
+#sign-in{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: none;
+}
+#sign-in:hover{
+    background-color: transparent;
+    color: white;
+}
+#sign-up{
+    color: white;
+    background-color: #050C9C;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: none;
+}
+#sign-up:hover{
+    background-color: white;
+    color: black;
+}
+
+/* TRY OUT */
+.tryout {
+    background-color: #ffffff;
+    border: 2px solid #a7e6ff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.tryout:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.tryout h2 {
+    color: #050C9C;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.tryout p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.btn-akses {
+    background-color: #050C9C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-akses:hover {
+    background-color: #3b4ddb;
+}
+
+/* KONTAK */
+#kontak{
+    text-align: justify;
+}
+#link-kontak a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#link-kontak a:hover{
+    color: #050C9C;
+}
+
+/* ION ICONS */
+ion-icon{
+    font-size: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+ion-icon:hover{
+    color: #050C9C;
+}

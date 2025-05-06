@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #A7E6FF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: #050C9C;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    background-color: #f7fafc;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #4299e1;
+    outline: none;
+}
+
+button {
+    margin: auto;
+    width: auto;
+    padding: 12px;
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3182ce;
+}
+
+.bottom-text {
+    margin-top: 20px;
+    width: auto;
+    text-align: left;
+    font-size: 14px;
+}
+
+.bottom-text a {
+    color: #2b6cb0;
+    text-decoration: none;
+}
+
+.bottom-text a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 150px;
+    height: auto;
+}
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A7E6FF;
+    height: 100vh;
+    width: auto;
+}
+
+.auth-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+.auth-form {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 30px 0;
+    padding-right: 50px;
+    padding-left: 30px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .auth-wrapper {
+        flex-direction: column;
+    }
+
+    .auth-image {
+        margin-bottom: 20px;
+    }
+
+    .auth-form {
+        width: 100%;
+    }
+}

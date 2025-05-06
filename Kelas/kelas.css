@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* NAVBAR */
+#navbar{
+    background-color: #A7E6FF;
+    color: white;
+}
+#sign-in{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: none;
+}
+#sign-in:hover{
+    background-color: transparent;
+    color: white;
+}
+#sign-up{
+    color: white;
+    background-color: #050C9C;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: none;
+}
+#sign-up:hover{
+    background-color: white;
+    color: black;
+}
+
+/* KELAS */
+#logo-kelas{
+    width: 160px;
+    min-width: 140px;
+    height: 160px;
+    min-height: 140px;
+    border-radius: 50%;
+}
+.btn-kelas{
+    color: white;
+    background-color: #050C9C;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+}
+#gambar-buku{
+    width: 377px;
+    min-width: 257px;
+    height: 281px;
+    min-height: 181px;
+    border-radius: 20px;
+}
+.btn-download{
+    color: white;
+    background-color: #A7E6FF;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px 30px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+}
+
+/* KONTAK */
+#kontak{
+    text-align: justify;
+}
+#link-kontak a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#link-kontak a:hover{
+    color: #050C9C;
+}
+
+/* ION ICONS */
+ion-icon{
+    font-size: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+ion-icon:hover{
+    color: #050C9C;
+}
